@@ -1,0 +1,25 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
+
+$body-bg: #3c3f41;
+$body-color: #ececec;
+$primary: rgb(0, 119, 255);
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+.custom-bg {
+    background: black url('assets/globe.jpg');
+    background-size: cover;
+  }
+
+.active {
+  color: #ececec;
+}
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
