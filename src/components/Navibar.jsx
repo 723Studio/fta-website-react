@@ -2,9 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/723logo-.png'
 import Button from 'react-bootstrap/Button';
 import {NavLink} from 'react-router-dom'
+import logo from '../assets/723logo-.png'
 
 //const setActive = ({isActive}) => isActive ? 'active-link' : '';  if not .active class name for active NavLink
 

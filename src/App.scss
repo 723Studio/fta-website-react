@@ -1,10 +1,10 @@
 /* The following block can be included in a custom.scss */
 
 /* make the customizations */
-$theme-colors: (
-    "info": tomato,
-    "danger": teal
-);
+// $theme-colors: (
+//     "info": tomato,
+//     "danger": teal
+// );
 
 $body-bg: #3c3f41;
 $body-color: #ececec;
@@ -15,10 +15,26 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 .custom-bg {
     background: black url('assets/globe.jpg');
     background-size: cover;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
   }
 
 .active {
   color: #ececec;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  background: #2b2b2c;
+}
+
+.card-img, .card-img-top {
+  object-fit: cover;
+  aspect-ratio: 1/.7;
 }
 
 /* import bootstrap to set changes */
