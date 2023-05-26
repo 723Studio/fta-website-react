@@ -3,10 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo from '../assets/723logo-.png'
+import { LoginNavComponent } from './LoginNavComponent'
 
-//const setActive = ({isActive}) => isActive ? 'active-link' : '';  if not .active class name for active NavLink
+//const setActive = ({isActive}) => isActive ? 'active-link' : '';  //if not .active class name for active NavLink
 
 function Navibar() {
   return (
@@ -31,7 +32,7 @@ function Navibar() {
           </Nav>
           <Nav>
             <Button variant="dark">Download</Button>
-            <Nav.Link href="#login">Log In</Nav.Link>
+            <LoginNavComponent/>
           </Nav>
         </Navbar.Collapse>
       </Container>

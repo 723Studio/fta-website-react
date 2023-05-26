@@ -10,6 +10,7 @@ import { CreateNewsPost } from './pages/CreateNewsPost';
 import { EditNewsPost } from './pages/EditNewsPost';
 import { Features } from './pages/Features';
 import { LoginPage } from './pages/LoginPage'
+import { RegisterNewUser } from './pages/RegiterNewUser.jsx'
 import { NotFoundPage } from './pages/NotFoundPage';
 
 import { RequireAuth } from './hoc/RequireAuth'
@@ -34,6 +35,8 @@ function App() {
               </RequireAuth>}/>
             <Route path="features" element={<Features/>}/>
             <Route path="login" element={<LoginPage/>}/>
+            <Route path="register" element={<RegisterNewUser/>}/>
+            <Route path="signout" element={<RegisterNewUser/>}/>
             <Route path="*" element={<NotFoundPage/>} />
           </Route>
           

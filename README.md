@@ -25,6 +25,10 @@ npm i --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/react-fontawesome
 npm install --save @fortawesome/free-brands-svg-icons
+npm install @reduxjs/toolkit@1.9.5
+npm install react-redux
+npm install firebase
+npm install -g firebase-tools
 ```
 
 ### `npm test`

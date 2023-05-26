@@ -11,11 +11,11 @@ function Footer() {
         <Container fluid className='p-0'>
             <Container className='text-center p-2'>
                 <a className={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faYoutube} /></a>
-                <a class={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faTwitch} /></a>
-                <a class={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faDiscord} /></a>
-                <a class={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faVk} /></a>
-                <a class={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faGithub} /></a>
-                <a class={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faPatreon} /></a>
+                <a className={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faTwitch} /></a>
+                <a className={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faDiscord} /></a>
+                <a className={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faVk} /></a>
+                <a className={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faGithub} /></a>
+                <a className={brandButton} href="#!" role="button"><FontAwesomeIcon icon={faPatreon} /></a>
             </Container>
             <Container className='text-center mb-2'>
                 <a className="navbar-brand" href="https://jb.gg/OpenSourceSupport">
